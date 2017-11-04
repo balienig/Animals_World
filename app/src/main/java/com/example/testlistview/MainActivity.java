@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
         final AnimalData animalData = AnimalData.getsInstance();
         mListView = (ListView) findViewById(R.id.list_view);
         animalData.animalList = new ArrayList<>();
-        animalData.animalList.add(new Animal("Cat",R.drawable.cat,getString(R.string.details_cat)));
-        animalData.animalList.add(new Animal("Dog",R.drawable.dog,getString(R.string.details_dog)));
-        animalData.animalList.add(new Animal("Dolphin",R.drawable.dolphin,getString(R.string.details_dolphin)));
-        animalData.animalList.add(new Animal("Koala",R.drawable.koala,getString(R.string.details_koala)));
-        animalData.animalList.add(new Animal("Lion",R.drawable.lion,getString(R.string.details_lion)));
-        animalData.animalList.add(new Animal("Owl",R.drawable.owl,getString(R.string.details_owl)));
-        animalData.animalList.add(new Animal("Penguin",R.drawable.penguin,getString(R.string.details_penguin)));
-        animalData.animalList.add(new Animal("Pig",R.drawable.pig,getString(R.string.details_pig)));
-        animalData.animalList.add(new Animal("Rabbit",R.drawable.rabbit,getString(R.string.details_rabbit)));
-        animalData.animalList.add(new Animal("Tiger",R.drawable.tiger,getString(R.string.details_tiger)));
+        animalData.animalList.add(new Animal("แมว (Cat)",R.drawable.cat,getString(R.string.details_cat)));
+        animalData.animalList.add(new Animal("หมา (Dog)",R.drawable.dog,getString(R.string.details_dog)));
+        animalData.animalList.add(new Animal("โลมา (Dolphin)",R.drawable.dolphin,getString(R.string.details_dolphin)));
+        animalData.animalList.add(new Animal("กอริล่า (Koala)",R.drawable.koala,getString(R.string.details_koala)));
+        animalData.animalList.add(new Animal("สิงโต (Lion)",R.drawable.lion,getString(R.string.details_lion)));
+        animalData.animalList.add(new Animal("นกฮูก (Owl)",R.drawable.owl,getString(R.string.details_owl)));
+        animalData.animalList.add(new Animal("เพนกวิน (Penguin)",R.drawable.penguin,getString(R.string.details_penguin)));
+        animalData.animalList.add(new Animal("หมู (Pig)",R.drawable.pig,getString(R.string.details_pig)));
+        animalData.animalList.add(new Animal("กระต่าย (Rabbit)",R.drawable.rabbit,getString(R.string.details_rabbit)));
+        animalData.animalList.add(new Animal("เสือ (Tiger)",R.drawable.tiger,getString(R.string.details_tiger)));
 
 
         ArrayAdapter adapter = new AnimalListAdapter(
